@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playfair+Display&display=swap">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title>Ila Yoga 2</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<div>
+					<a href="../M05-IlaYoga1/index.html"><i class="fas fa-home"></i>Accueil</a>
+				</div>
+				<div>
+					<a href="#"><i class="fas fa-calendar-alt"></i>Agenda</a>
+				</div>
+				<div>
+					<a href="#"><i class="fas fa-book"></i>Livre d'or</a>
+				</div>
+				<div>
+					<a href="#"><i class="far fa-image"></i>Album Photo</a>
+				</div>
+				<div>
+					<a href="../M06-IlaYoga2/index.html"><i class="fas fa-envelope"></i>Nous contacter</a>
+				</div>
+			</nav>
+			<div id="offrepromo">
+				<span id="caps">Offre promo</span> : Votre premier cours d'essai gratuit
+			</div>
+		</div>
+	</header>
+	<div id="top">
+		<h1>Bienvenue sur le site d'Ila Yoga</h1>
+	</div>		
+	<main class="formulaireReservation">
+		<article class="reservation">
+			<table class="yogaDuRireJacqueline">
+			<caption>Réserver votre place pour le prochain cours de Yoga du rire !</caption> <!--Titre du tableau-->
+				<thead>
+					<tr>
+						<th class="left" colspan="3">Yoga du rire avec Jacqueline (Paris)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="left">05 Janvier 2016</td>
+						<td>15h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+					<tr class="backgroundGrey">
+						<td class="left">10 Janvier 2016</td>
+						<td>16h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+					<tr>
+						<td class="left">15 Janvier 2016</td>
+						<td>15h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+					<tr class="backgroundGrey">
+						<td class="left">20 Janvier 2016</td>
+						<td>16h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="yogaDuRireRoger">
+				<thead>
+					<tr>
+						<th class="left" colspan="3">Yoga du rire avec Roger (Marseille)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="left">05 Janvier 2016</td>
+						<td>15h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+					<tr class="backgroundGrey">
+						<td class="left">10 Janvier 2016</td>
+						<td>16h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+					<tr>
+						<td class="left">15 Janvier 2016</td>
+						<td>15h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+					<tr class="backgroundGrey">
+						<td class="left">20 Janvier 2016</td>
+						<td>16h30</td>
+						<td class="purple">Réserver ce créneau</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+		<article class="formulaire">
+			<h3>Pour valider votre réservation, compléter ce formulaire</h2>
+			<form>
+				<fieldset id="coordonnées"> <!--comme un div pour un formulaire -->
+					<h3>Vos coordonnées</h3> <!-- C'est titre d'une zone d'un formulaire -->
+						<label for="fname">Votre prénom : </label> <!-- Comme un libellé -->
+						<input type="text" id="fname" name="fname"> <!-- For et id sont identiques -->
+						<label for="lname">Votre nom : </label>
+						<input type="text" id="lname" name="lname">
+						<label for="email">Votre mail : </label>
+						<input type="email" id="email" name="email">
+				</fieldset>
+				<fieldset id="raisons">
+					<h3>Quelle sont les raisons de votre venue ?</h3>
+						<input type="checkbox" id="besoindetente" value="besoindetente">
+						<label for="besoindetente">Besoin de me détendre </label>
+						<input type="checkbox" id="conseilmedecin" value="conseilmedecin">
+						<label for="conseilmedecin">Mon médecin m'a conseillé de venir </label>
+						<input type="checkbox" id="testamis" value="testamis">
+						<label for="testamis">Je veux testé avec des amis </label>
+				</fieldset>
+				<fieldset id="souscription">
+					<h3>Voulez-vous souscrire à notre programme de fidélité ?</h3>
+						<input type="radio" name="ouinon" id="oui" value="oui">
+						<label for="oui">Oui </label>
+						<input type="radio" name="ouinon" id="non" value="non">
+						<label for="non">Non </label>	
+				</fieldset>
+				<fieldset id="connu">
+					<h3>Comment avez-vous connu Ila Yoga ?</h3>
+	       				<label for="connaitre"></label>
+	       				<select name="connaitre" id="connaitre">
+	           				<option value="internet">Par internet</option>
+	           				<option value="amis">Par des amis</option>
+	           				<option value="amis">Par des amis</option>
+
+	       				</select>
+				</fieldset>
+				<button type="submit">Envoyer</button>
+			</form> 
+		</article>
+	</main>
+</body>
+<footer>
+	<small id="licence">
+	    <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" style="border-width:0" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" /></a><br /><span>Cet exercice</span> de <a href="https://3wa.fr">3W Academy</a> est mis à disposition <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" rel="cc:morePermissions">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="http://www.justine-muller.fr">Justine Muller</a>.
+	</small>
+</footer>
+</html>
